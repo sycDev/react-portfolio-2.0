@@ -2,6 +2,8 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import AppHeader from './components/common/AppHeader';
+import AppFooter from './components/common/AppFooter';
+import './styles/App.css';
 
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
@@ -24,6 +26,7 @@ function App() {
 							<Route path="/contact" element={<Contact />} />
 						</Routes>
 					</Suspense>
+					<AppFooter />
 				</Router>
 			</div>
 		</AnimatePresence>
