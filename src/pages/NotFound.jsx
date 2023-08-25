@@ -9,15 +9,15 @@ const NotFound = () => {
             <TabTitle title="sycDev&#127808; | 404 Not Found" />
             <div
                 className="
-                container
-                flex-row
-                text-center
-                items-center
-                mx-auto
-                py-5
-                lg:py-10
-                lg:mt-10
-                "
+                    container
+                    flex-row
+                    text-center
+                    items-center
+                    mx-auto
+                    py-5
+                    lg:py-10
+                    lg:mt-10
+                    "
             >
                 <img
                     src={NotFoundImg}

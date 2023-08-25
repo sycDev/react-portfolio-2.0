@@ -1,8 +1,10 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
+import ScrollToTop from './components/common/ScrollToTop';
 import AppHeader from './components/common/AppHeader';
 import AppFooter from './components/common/AppFooter';
+import UseScrollToTop from './hooks/useScrollToTop';
 import './styles/App.css';
 
 const Home = lazy(() => import('./pages/Home'));
@@ -17,6 +19,7 @@ function App() {
 		<AnimatePresence>
 			<div className=" bg-secondary-light dark:bg-primary-dark transition duration-300">
 				<Router>
+					<ScrollToTop />
 					<AppHeader />
 					<Suspense fallback={""}>
 						<Routes>
@@ -30,6 +33,7 @@ function App() {
 					</Suspense>
 					<AppFooter />
 				</Router>
+				<UseScrollToTop />
 			</div>
 		</AnimatePresence>
 	);
