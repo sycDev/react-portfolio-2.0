@@ -99,7 +99,6 @@ const HomeBanner = () => {
 						"
 				>
 					<ActionButton
-						openInNewTab={false}
 						link="/about"
 						title={
 							<span
