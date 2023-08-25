@@ -111,22 +111,12 @@ const FeaturedProjects = () => {
                                 <PrimaryButton
                                     link={"/projects/details/" + project.id}
                                     title="DETAILS"
-                                    className="
-                                        px-4
-                                        pb-[5px]
-                                        pt-[6px]
-                                        me-3
-                                        "
+                                    className="me-3"
                                 />
                                 <SecondaryButton
                                     openInNewTab
                                     link={project.github}
                                     title="GITHUB"
-                                    className="
-                                        px-4
-                                        pb-[5px]
-                                        pt-[6px]
-                                        "
                                 />
                             </div>
                         </div>

@@ -10,6 +10,9 @@ const PrimaryButton = ({ openInNewTab, link, title, className }) => {
 			rel="noreferrer"
 			type="button"
 			className={`
+				px-4
+				pb-[5px]
+				pt-[6px]
 				text-center
 				inline-block
 				rounded

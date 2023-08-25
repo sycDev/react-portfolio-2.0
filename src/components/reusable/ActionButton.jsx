@@ -28,7 +28,7 @@ const ActionButton = ({ openInNewTab, link, title, className }) => {
 				focus:ring-emerald-900
 				hover:bg-emerald-500
 				text-gray-500
-				hover:text-white
+				hover:text-primary-light
 				duration-500
 				${className}
 				`}
