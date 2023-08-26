@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import developer from '../../images/home/developer.svg';
-import ActionButton from '../reusable/ActionButton';
 import SecondaryButton from '../reusable/SecondaryButton';
 import PrimaryButton from '../reusable/PrimaryButton';
 
