@@ -105,7 +105,9 @@ const FeaturedProjects = () => {
                             <div 
                                 className="
                                     text-center
-                                    py-6
+                                    pt-6
+                                    pb-0
+                                    sm:pb-6
                                     "
                             >
                                 <PrimaryButton

@@ -35,8 +35,10 @@ const FormInput = ({
 					py-2
 					border
 					border-gray-300
-					dark:border-primary-dark
 					border-opacity-50
+					dark:border-primary-dark
+					focus:border-emerald-500
+					focus:ring-emerald-500
 					text-primary-dark
 					dark:text-secondary-light
 					bg-ternary-light
