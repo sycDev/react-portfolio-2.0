@@ -4,7 +4,7 @@ import ALCThumbnail from '../images/projects/static-website/abc-learning-center/
 
 export const featuredProjectsData = [
 	{
-		id: 1,
+		id: 3,
 		title: 'Know-Your-Neighborhood',
 		summary: 'An online grocery stores locator with store management system',
 		thumbnail: KYNThumbnail,
@@ -18,7 +18,7 @@ export const featuredProjectsData = [
 		github: 'https://github.com/sycDev/hifi-used-car',
 	},
 	{
-		id: 3,
+		id: 1,
 		title: 'ABC Learning Center',
 		summary: 'A website for an IT Learning Center with Lead Administration System',
 		thumbnail: ALCThumbnail,

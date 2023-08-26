@@ -9,6 +9,7 @@ import './styles/App.css';
 
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
+const ProjectDetails = lazy(() => import('./pages/ProjectDetails'));
 const About = lazy(() => import('./pages/About'));
 const Skills = lazy(() => import('./pages/Skills'));
 const Contact = lazy(() => import('./pages/Contact'));
@@ -25,6 +26,10 @@ function App() {
 						<Routes>
 							<Route path="/" element={<Home />} />
 							<Route path="/projects" element={<Projects />} />
+							<Route
+								path="projects/details/:id"
+								element={<ProjectDetails />}
+							/>
 							<Route path="/about" element={<About />} />
 							<Route path="/skills" element={<Skills />} />
 							<Route path="/contact" element={<Contact />} />
