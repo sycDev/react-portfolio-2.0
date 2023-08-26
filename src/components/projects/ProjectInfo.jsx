@@ -103,9 +103,9 @@ const ProjectInfo = () => {
 						{projectInfo.Technologies[0].title}
 					</p>
 					<div className="mt-3">
-						{projectInfo.Technologies[0].techs.map((tag, tagIndex) => (
+						{projectInfo.Technologies[0].techs.map((tech) => (
 							<span
-								key={tagIndex}
+								key={tech.id}
 								className="
 									inline-block
 									bg-gray-200
@@ -119,7 +119,7 @@ const ProjectInfo = () => {
 									mb-2
 									"
 								>
-									{tag}
+									{tech.tech}
 							</span>
 						))}
 					</div>

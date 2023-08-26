@@ -114,11 +114,26 @@ export const singleProjectData = [
 				{
 					title: 'Tools & Technologies',
 					techs: [
-						'HTML',
-						'CSS',
-						'JavaScript',
-						'JQuery',
-						'JQueryUI',
+						{
+							id: 1,
+							tech: 'HTML',
+						},
+						{
+							id: 2,
+							tech: 'CSS',
+						},
+						{
+							id: 3,
+							tech: 'JavaScript',
+						},
+						{
+							id: 4,
+							tech: 'JQuery',
+						},
+						{
+							id: 5,
+							tech: 'JQueryUI',
+						},
 					],
 				},
 			],
@@ -206,11 +221,30 @@ export const singleProjectData = [
 				{
 					title: 'Tools & Technologies',
 					techs: [
-						'Spring Boot',
-						'JSP',
-						'CSS',
-						'JavaScript',
-						'Bootstrap',
+						{
+							id: 1,
+							tech: 'Spring Boot',
+						},
+						{
+							id: 2,
+							tech: 'JSP',
+						},
+						{
+							id: 3,
+							tech: 'CSS',
+						},
+						{
+							id: 4,
+							tech: 'JavaScript',
+						},
+						{
+							id: 5,
+							tech: 'JQuery',
+						},
+						{
+							id: 6,
+							tech: 'Bootstrap',
+						},
 					],
 				},
 			],
@@ -302,13 +336,38 @@ export const singleProjectData = [
 				{
 					title: 'Tools & Technologies',
 					techs: [
-						'React',
-						'Spring Boot',
-						'RESTful API',
-						'Axios',
-						'OAuth2 API',
-						'CSS',
-						'MySQL',
+						{
+							id: 1,
+							tech: 'React',
+						},
+						{
+							id: 2,
+							tech: 'Spring Boot',
+						},
+						{
+							id: 3,
+							tech: 'RESTful API',
+						},
+						{
+							id: 4,
+							tech: 'Axios',
+						},
+						{
+							id: 5,
+							tech: 'OAuth2 API',
+						},
+						{
+							id: 6,
+							tech: 'Webhook',
+						},
+						{
+							id: 7,
+							tech: 'CSS',
+						},
+						{
+							id: 8,
+							tech: 'MySQL',
+						},
 					],
 				},
 			],
