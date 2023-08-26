@@ -42,6 +42,9 @@ const NotFound = () => {
                 <SecondaryButton
                     link="/"
                     title="Back to Home"
+                    className="
+                        p-2
+                        "
                 />
             </div>
         </>

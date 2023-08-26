@@ -1350,9 +1350,6 @@ select {
 .w-3 {
   width: 0.75rem;
 }
-.w-36 {
-  width: 9rem;
-}
 .w-4 {
   width: 1rem;
 }
@@ -1782,6 +1779,11 @@ select {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -2265,6 +2267,10 @@ select {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .px-\[0\.4rem\] {
   padding-left: 0.4rem;
@@ -2915,9 +2921,6 @@ select {
 }
 .delay-\[0ms\] {
   transition-delay: 0ms;
-}
-.duration-100 {
-  transition-duration: 100ms;
 }
 .duration-150 {
   transition-duration: 150ms;
@@ -4425,10 +4428,6 @@ select {
     width: 75%;
   }
 
-  .sm\:w-48 {
-    width: 12rem;
-  }
-
   .sm\:w-\[180px\] {
     width: 180px;
   }
@@ -4526,11 +4525,6 @@ select {
     line-height: 2.5rem;
   }
 
-  .sm\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -4567,10 +4561,6 @@ select {
 
   .md\:ml-44 {
     margin-left: 11rem;
-  }
-
-  .md\:mt-12 {
-    margin-top: 3rem;
   }
 
   .md\:mt-2 {

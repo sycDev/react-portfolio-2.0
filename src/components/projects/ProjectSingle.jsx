@@ -195,6 +195,7 @@ const ProjectSingle = ({
                             flex
                             justify-center
                             mt-2
+							p-2
                             "
                     >
 						<PrimaryButton
@@ -202,7 +203,7 @@ const ProjectSingle = ({
 							title="Details"
 							className="
                                 w-full
-                                p-2
+								p-2
                                 "
 						/>
 

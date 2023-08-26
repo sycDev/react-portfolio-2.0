@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import developer from '../../images/home/developer.svg';
 import ActionButton from '../reusable/ActionButton';
+import SecondaryButton from '../reusable/SecondaryButton';
+import PrimaryButton from '../reusable/PrimaryButton';
 
 const HomeBanner = () => {
 	return (
@@ -46,7 +48,7 @@ const HomeBanner = () => {
 						"
 				>
 					Hi, I'm&nbsp;
-					<span 
+					<span
 						className="
 							text-primary-dark
 							dark:text-primary-light
@@ -80,8 +82,8 @@ const HomeBanner = () => {
 						dark:text-gray-200
 						"
 				>
-					A Year 2 Software Engineering 
-					<br/>
+					A Year 2 Software Engineering
+					<br />
 					DiGiT Student
 				</motion.p>
 				<motion.div
@@ -98,27 +100,23 @@ const HomeBanner = () => {
 						sm:block
 						"
 				>
-					<ActionButton
-						link="/about"
-						title={
-							<span
-								className="
-									text-sm
-									sm:text-lg
-									font-general-medium
-									duration-100
-									"
-							>
-								Get to Know Me
-							</span>
-						}
+					<div
 						className="
-							w-36
-							sm:w-48
 							mt-6
-							md:mt-12
+							space-x-3
 							"
-					/>
+					>
+						<PrimaryButton
+							title="Get to Know Me"
+							link="/about"
+							className="px-3 py-2"
+						/>
+						<SecondaryButton
+							title="My Skills"
+							link="/skills"
+							className="px-8 py-2"
+						/>
+					</div>
 				</motion.div>
 			</div>
 			<motion.div
