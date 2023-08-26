@@ -15,14 +15,39 @@ Other Dependencies:
 - [React Icons](https://github.com/react-icons/react-icons)
 - [React Player](https://github.com/cookpete/react-player)
 
-`yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Environment Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Use environment variables to handle sensitive information securely.\
+Do **not** hardcode sensitive URLs or API keys directly into the codebase.
 
-`yarn build:css`
+### Local Development
 
-After adding new TailwindCSS className, rebuild the css using the command [Postcss CLI](https://github.com/postcss/postcss-cli)
+1. Create a `.env.local` file in the root of your project.
+2. Define the environment variables in the `.env.local` file:
+
+    ```plaintext
+    REACT_APP_CONTACT_FORM_URL=${HEROTOFU_FORM_URL}
+    ```
+3. Install dependencies using your package manager:
+
+
+    ```bash
+    yarn install
+    ```
+
+4. Run the app
+
+    ```bash
+    yarn start
+    ```
+
+    Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+    The page will reload when you make changes. You may also see any lint errors in the console.
+
+5. After adding new TailwindCSS className, rebuild the css using the command [Postcss CLI](https://github.com/postcss/postcss-cli)
+
+    ```bash
+    yarn build:css
+    ```
