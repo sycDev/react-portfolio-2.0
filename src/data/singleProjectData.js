@@ -4,7 +4,6 @@ import MSWImage2 from '../images/projects/static-website/my-school-website/msw-g
 import MSWImage3 from '../images/projects/static-website/my-school-website/msw-contact.png';
 
 import SMSThumbnail from '../images/projects/web-application/sales-management-system/sms-thumbnail.png';
-import SMSShowcase from '../videos/projects/web-application/sales-management-system/sms-showcase.mp4';
 import SMSImage1 from '../images/projects/web-application/sales-management-system/sms-login.png';
 import SMSImage2 from '../images/projects/web-application/sales-management-system/sms-signup.png';
 import SMSImage3 from '../images/projects/web-application/sales-management-system/sms-home.png';
@@ -29,7 +28,6 @@ import BTSImage5 from '../images/projects/cli-application/battleships/bts-player
 import BTSImage6 from '../images/projects/cli-application/battleships/bts-playerWon.png';
 
 import MCQThumbnail from '../images/projects/cli-application/mcq-system/mcq-thumbnail.jpg';
-import MCQShowcase from '../videos/projects/cli-application/mcq-system/mcq-showcase.mp4';
 import MCQImage1 from '../images/projects/cli-application/mcq-system/mcq-flowchart1.jpg';
 import MCQImage2 from '../images/projects/cli-application/mcq-system/mcq-flowchart2.jpg';
 import MCQImage3 from '../images/projects/cli-application/mcq-system/mcq-uml.jpg';
@@ -66,7 +64,6 @@ import JPPImage9 from '../images/projects/prototype/abc-jobs/jpp-flowchart5-sear
 import JPPImage10 from '../images/projects/prototype/abc-jobs/jpp-storyboard5-searchUsers.jpg';
 
 import CJPThumbnail from '../images/projects/web-application/abc-jobs/cjp-thumbnail.png';
-import CJPShowcase from '../videos/projects/web-application/abc-jobs/cjp-showcase.mp4';
 import CJPImage1 from '../images/projects/web-application/abc-jobs/cjp-login.png';
 import CJPImage2 from '../images/projects/web-application/abc-jobs/cjp-register.png';
 import CJPImage3 from '../images/projects/web-application/abc-jobs/cjp-userHome.png';
@@ -75,13 +72,11 @@ import CJPImage5 from '../images/projects/web-application/abc-jobs/cjp-editProfi
 import CJPImage6 from '../images/projects/web-application/abc-jobs/cjp-addEducation.png';
 
 import ONPThumbnail from '../images/projects/web-portal/online-news-portal/onp-thumbnail.png';
-import ONPShowcase from '../videos/projects/web-portal/online-news-portal/onp-showcase.mp4';
 import ONPImage1 from '../images/projects/web-portal/online-news-portal/onp-searchResult.png';
 import ONPImage2 from '../images/projects/web-portal/online-news-portal/onp-feedbackForm.png';
 import ONPImage3 from '../images/projects/web-portal/online-news-portal/onp-feedbackAdded.png';
 
 import TAWThumbnail from '../images/projects/web-portal/triple-a-website/taw-thumbnail.png';
-import TAWShowcase from '../videos/projects/web-portal/triple-a-website/taw-showcase.mp4';
 import TAWImage1 from '../images/projects/web-portal/triple-a-website/taw-classDiagram.png';
 import TAWImage2 from '../images/projects/web-portal/triple-a-website/taw-adminServices.png';
 import TAWImage3 from '../images/projects/web-portal/triple-a-website/taw-adminCustomers.png';
@@ -89,7 +84,6 @@ import TAWImage4 from '../images/projects/web-portal/triple-a-website/taw-staffS
 import TAWImage5 from '../images/projects/web-portal/triple-a-website/taw-staffCustomers.png';
 
 import HFCThumbnail from '../images/projects/web-application/hifi-cars/hfc-thumbnail.png';
-import HFCShowcase from '../videos/projects/web-application/hifi-cars/hfc-showcase.mp4';
 import HFCImage1 from '../images/projects/web-application/hifi-cars/hfc-login.png';
 import HFCImage2 from '../images/projects/web-application/hifi-cars/hfc-signup.png';
 import HFCImage3 from '../images/projects/web-application/hifi-cars/hfc-auction.png';
@@ -98,7 +92,6 @@ import HFCImage5 from '../images/projects/web-application/hifi-cars/hfc-placeBid
 import HFCImage6 from '../images/projects/web-application/hifi-cars/hfc-adminListing.png';
 
 import KYNThumbnail from '../images/projects/web-application/know-your-neighborhood/kyn-thumbnail.jpeg';
-import KYNShowcase from '../videos/projects/web-application/know-your-neighborhood/kyn-showcase.mp4';
 import KYNImage1 from '../images/projects/web-application/know-your-neighborhood/kyn-register.jpeg';
 import KYNImage2 from '../images/projects/web-application/know-your-neighborhood/kyn-login.jpeg';
 import KYNImage3 from '../images/projects/web-application/know-your-neighborhood/kyn-googleLogin.jpeg';
@@ -209,7 +202,7 @@ export const singleProjectData = [
 			summary: 'Built with PHP for school cooperative store with CRUD, report generate and data import features',
 			thumbnail: SMSThumbnail,
 		},
-		ProjectShowcase: SMSShowcase,
+		ProjectShowcase: 'https://youtu.be/Yh4HwK2pFbY',
 		ProjectImages: [
 			{
 				id: 1,
@@ -533,7 +526,7 @@ export const singleProjectData = [
 			summary: 'A Java CLI Multiple-Choice Question System that load questions from CSV file',
 			thumbnail: MCQThumbnail,
 		},
-		ProjectShowcase: MCQShowcase,
+		ProjectShowcase: 'https://youtu.be/TN-kQdUPZ9k',
 		ProjectImages: [
 			{
 				id: 1,
@@ -971,7 +964,7 @@ export const singleProjectData = [
 			summary: 'A community job portal similar to LinkedIn but specially for developers developed using Spring framework with JSP for the front-end',
 			thumbnail: CJPThumbnail,
 		},
-		ProjectShowcase: CJPShowcase,
+		ProjectShowcase: 'https://youtu.be/XAW-6W0gHOw',
 		ProjectImages: [
 			{
 				id: 1,
@@ -1112,7 +1105,7 @@ export const singleProjectData = [
 			summary: 'A simple portal that provides online news updates that built using Liferay',
 			thumbnail: ONPThumbnail,
 		},
-		ProjectShowcase: ONPShowcase,
+		ProjectShowcase: 'https://youtu.be/GTiUfXo2c1E',
 		ProjectImages: [
 			{
 				id: 1,
@@ -1213,7 +1206,7 @@ export const singleProjectData = [
 			summary: "Liferay web application for a web hosting company with customer data management system",
 			thumbnail: TAWThumbnail,
 		},
-		ProjectShowcase: TAWShowcase,
+		ProjectShowcase: 'https://youtu.be/k1audrscK5c',
 		ProjectImages: [
 			{
 				id: 1,
@@ -1314,7 +1307,7 @@ export const singleProjectData = [
 			summary: 'A used car sales portal with bidding system which back-end built with Spring Boot and use JSP for front-end',
 			thumbnail: HFCThumbnail,
 		},
-		ProjectShowcase: HFCShowcase,
+		ProjectShowcase: 'https://youtu.be/zXuVY9WvBsg',
 		ProjectImages: [
 			{
 				id: 1,
@@ -1424,7 +1417,7 @@ export const singleProjectData = [
 			summary: 'An online grocery stores locator with store management system which React front-end integrated with Spring Boot REST API',
 			thumbnail: KYNThumbnail,
 		},
-		ProjectShowcase: KYNShowcase,
+		ProjectShowcase: 'https://youtu.be/1TmtS0MNcgM',
 		ProjectImages: [
 			{
 				id: 1,
