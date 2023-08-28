@@ -210,6 +210,7 @@ const ProjectSingle = ({
 						{github ?
 							(
 								<SecondaryButton
+									openInNewTab
 									link={github}
 									title="GitHub"
 									className="
@@ -225,6 +226,7 @@ const ProjectSingle = ({
 						{demo ?
 							(
 								<SecondaryButton
+									openInNewTab
 									link={demo}
 									title="Demo"
 									className="
