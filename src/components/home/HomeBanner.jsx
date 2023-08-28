@@ -103,17 +103,26 @@ const HomeBanner = () => {
 						className="
 							mt-6
 							space-x-3
+							md:space-x-0
+							lg:space-x-3
 							"
 					>
 						<PrimaryButton
 							title="Get to Know Me"
 							link="/about"
-							className="px-3 py-2"
+							className="
+								px-3
+								py-2
+								"
 						/>
 						<SecondaryButton
 							title="My Skills"
 							link="/skills"
-							className="px-8 py-2"
+							className="
+								md:mt-3
+								px-8
+								py-2
+								"
 						/>
 					</div>
 				</motion.div>
