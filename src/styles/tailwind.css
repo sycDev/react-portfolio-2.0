@@ -4467,12 +4467,6 @@ select {
     gap: 2rem;
   }
 
-  .sm\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .sm\:p-0 {
     padding: 0px;
   }
@@ -4674,10 +4668,6 @@ select {
     margin-top: 1.5rem;
   }
 
-  .lg\:block {
-    display: block;
-  }
-
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -4718,18 +4708,8 @@ select {
 }
 @media (min-width: 1280px) {
 
-  .xl\:block {
-    display: block;
-  }
-
   .xl\:max-w-screen-xl {
     max-width: 1280px;
-  }
-
-  .xl\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:text-2xl {
@@ -4740,18 +4720,6 @@ select {
   .xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-}
-@media (min-width: 1536px) {
-
-  .\32xl\:block {
-    display: block;
-  }
-
-  .\32xl\:space-x-3 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
   }
 }
 @media (min-width: 320px) {
