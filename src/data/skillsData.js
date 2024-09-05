@@ -11,18 +11,30 @@ export const skillsData = {
 			},
 			{
 				id: 2,
+				title: 'C',
+				img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg',
+				link: 'https://en.wikipedia.org/wiki/C_(programming_language)',
+			},
+			{
+				id: 3,
+				title: 'C#',
+				img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg',
+				link: 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)',
+			},
+			{
+				id: 4,
 				title: 'PHP',
 				img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg',
 				link: 'https://www.php.net',
 			},
 			{
-				id: 3,
+				id: 5,
 				title: 'JavaScript',
 				img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
 				link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
 			},
 			{
-				id: 4,
+				id: 6,
 				title: 'Python',
 				img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
 				link: 'https://www.python.org/'

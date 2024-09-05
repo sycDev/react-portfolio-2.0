@@ -20,8 +20,8 @@ export const aboutData = {
 	],
 	Openings: {
 		heading: "Nice to meet you👋",
-		paragraph: 
-			"I'm just an ordinary girl from the charming island of Penang, a place well-known for its delicious food in Malaysia. Currently pursuing a part-time Software Engineering degree at Wawasan Open University, I'm thrilled to be in Year 2 of my academic journey. I'm on the lookout for an internship in the Software or Web Development realm to dive into hands-on experience.",
+		paragraph:
+			"I'm just an ordinary girl from the charming island of Penang, a place well-known for its delicious food in Malaysia. Currently pursuing a part-time Software Engineering degree at Wawasan Open University, I'm thrilled to be in Year 3 of my academic journey. Having completed a Software Engineering internship, I am now seeking a full-time Software Engineer position to further apply and expand my skills in a professional setting.",
 	},
 	Bio: [
 		{
