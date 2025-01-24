@@ -107,6 +107,16 @@ import PFLImage4 from '../images/projects/static-website/portfolioV2/pfl-about.j
 import PFLImage5 from '../images/projects/static-website/portfolioV2/pfl-skills.jpeg';
 import PFLImage6 from '../images/projects/static-website/portfolioV2/pfl-contact.jpeg';
 
+import CSRMSThumbnail from '../images/projects/windows-application/c#-restaurant-management-system/csrms-thumbnail.png';
+import CSRMSImage1 from '../images/projects/windows-application/c#-restaurant-management-system/csrms-login.png';
+import CSRMSImage2 from '../images/projects/windows-application/c#-restaurant-management-system/csrms-categories.png';
+import CSRMSImage3 from '../images/projects/windows-application/c#-restaurant-management-system/csrms-products.png';
+import CSRMSImage4 from '../images/projects/windows-application/c#-restaurant-management-system/csrms-tables.png';
+import CSRMSImage5 from '../images/projects/windows-application/c#-restaurant-management-system/csrms-staff.png';
+import CSRMSImage6 from '../images/projects/windows-application/c#-restaurant-management-system/csrms-pos.png';
+import CSRMSImage7 from '../images/projects/windows-application/c#-restaurant-management-system/csrms-billList.png';
+import CSRMSImage8 from '../images/projects/windows-application/c#-restaurant-management-system/csrms-kitchen.png';
+
 export const singleProjectData = [
 	{
 		id: 1,
@@ -1631,6 +1641,123 @@ export const singleProjectData = [
 				},
 			],
 			GithubLink: 'https://github.com/sycDev/react-portfolio-2.0',
+		},
+	},
+	{
+		id: 15,
+		ProjectHeader: {
+			title: 'iRestaurant',
+			timeline: '5 Dec 2024',
+			category: 'Windows Application',
+			summary: 'A restaurant management system with POS using .NET Framework and Windows Forms',
+			thumbnail: CSRMSThumbnail,
+		},
+		ProjectShowcase: 'https://youtu.be/JbMZrHrPOY0',
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Login Page',
+				img: CSRMSImage1,
+			},
+			{
+				id: 2,
+				title: 'Categories Page',
+				img: CSRMSImage2,
+			},
+			{
+				id: 3,
+				title: 'Products Page',
+				img: CSRMSImage3,
+			},
+			{
+				id: 4,
+				title: 'Tables Page',
+				img: CSRMSImage4,
+			},
+			{
+				id: 5,
+				title: 'Staff Page',
+				img: CSRMSImage5,
+			},
+			{
+				id: 6,
+				title: 'POS Page',
+				img: CSRMSImage6,
+			},
+			{
+				id: 7,
+				title: 'Bill List',
+				img: CSRMSImage7,
+			},
+			{
+				id: 8,
+				title: 'Kitchen Page',
+				img: CSRMSImage8,
+			},
+		],
+		ProjectInfo: {
+			AboutHeading: 'About This Project',
+			AboutDetails:
+				[
+					{
+						id: 1,
+						paragraph:
+							"This project is a comprehensive Restaurant Management System I developed using the .NET Framework and SQL Server. The system is designed to help restaurant owners and staff efficiently manage daily operations, from handling orders and categories to managing staff and generating reports. I built this application to practice full-stack development using .NET Framework, Windows Forms and SQL Server. The Point of Sale (POS) functionality integrates seamlessly with kitchen operations and billing, making it a powerful tool for restaurant management.",
+					},
+					{
+						id: 2,
+						paragraph:
+							"The system includes features like user authentication, product management, table management, order tracking, and kitchen order management. It also provides sales and staff reports, giving restaurant managers the tools they need for both operational efficiency and data-driven decision-making. While some features, like reporting, are still in progress, the project serves as a solid foundation for any restaurant looking to streamline their operations.",
+					},
+				],
+			ObjectivesHeading: 'Objectives',
+			ObjectivesDetails:
+				[
+					{
+						id: 1,
+						point:
+							"- Build a fully functional Restaurant Management System using .NET Framework and SQL Server for hands-on experience with backend development",
+					},
+					{
+						id: 2,
+						point:
+							"- Implement key features like POS, order management, kitchen order tracking, and staff management to simulate real-world business operations",
+					},
+					{
+						id: 3,
+						point:
+							"- Implement real-time order processing and billing features to enhance operational efficiency and reduce manual errors",
+					},
+					{
+						id: 4,
+						point:
+							"- Build a scalable system architecture that can be easily expanded in the future to include additional features such as detailed reporting and advanced settings configuration",
+					},
+				],
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						{
+							id: 1,
+							tech: 'C#',
+						},
+						{
+							id: 2,
+							tech: '.NET Framework',
+						},
+						{
+							id: 3,
+							tech: 'Windows Forms',
+						},
+						{
+							id: 4,
+							tech: 'SQL Server',
+						},
+					],
+				},
+			],
+			GithubLink: 'https://github.com/sycDev/csharp-restaurant-management-system',
 		},
 	},
 ];

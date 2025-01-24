@@ -2,6 +2,7 @@ import React from 'react';
 
 const selectOptions = [
 	'Web Application',
+	'Windows Application',
 	'Static Website',
 	'Web Portal',
 	'CLI Application',
@@ -17,7 +18,6 @@ const ProjectsFilter = ({ setSelectProject }) => {
 				}}
 				className="
 					font-general-medium 
-					sm:w-[180px]
 					w-full
 					px-4
 					sm:px-6
