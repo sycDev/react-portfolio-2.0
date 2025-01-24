@@ -99,6 +99,12 @@ export const skillsData = {
 				img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg',
 				link: 'https://spring.io',
 			},
+			{
+				id: 2,
+				title: '.NET Framework',
+				img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original-wordmark.svg',
+				link: 'https://dotnet.microsoft.com/en-us/',
+			},
 		],
 	Databases:
 		[
@@ -107,6 +113,12 @@ export const skillsData = {
 				title: 'MySQL',
 				img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg',
 				link: 'https://www.mysql.com',
+			},
+			{
+				id: 2,
+				title: 'SQL Server',
+				img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg',
+				link: 'https://www.microsoft.com/en-my/sql-server/',
 			},
 		],
 	Others:
