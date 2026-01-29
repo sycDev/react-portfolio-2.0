@@ -81,7 +81,7 @@ const HomeBanner = () => {
 						dark:text-gray-200
 						"
 				>
-					A Year 3 Software Engineering
+					A Year 4 Software Engineering
 					<br />
 					DiGiT Student
 				</motion.p>
